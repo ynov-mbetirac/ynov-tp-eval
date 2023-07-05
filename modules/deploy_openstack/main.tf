@@ -20,8 +20,9 @@ resource "null_resource" "connect_ssh" {
             RABBIT_PASSWORD=$ADMIN_PASSWORD
             SERVICE_PASSWORD=$ADMIN_PASSWORD
             HOST_IP=172.26.10.110
-            EOF
-
+            EOF,
+            "./stack.sh"
+            
         ]
     }
 }
