@@ -24,3 +24,4 @@ resource "null_resource" "connect_ssh" {
 
         ]
     }
+}
